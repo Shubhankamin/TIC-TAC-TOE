@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: a;
+    src: url(Candy\ Beans.otf);
+}
+@font-face {
+    font-family: b;
+    src: url(Next\ Sunday.otf);
+}
+@font-face {
+    font-family: c;
+    src: url(New\ Athletic\ M54.ttf);
+}
+
+body{
+    background-color: blueviolet;
+    text-align: center;
+ 
+}
+.page1-score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    font-family: c;
+    font-size: 1vw;
+   
+}
+
+    
+
+.Xscore{
+    width: 12vw;
+    /* background-color:rgba(255, 255, 255, 0.821); */
+    border-radius: 10px;
+    text-align: center;
+    background-color:#363062;
+    font-weight: 100;
+    color: white;
+}
+.Oscore{
+    width: 12vw;
+    /* background-color: rgba(255, 255, 255, 0.852); */
+    border-radius: 10px;
+    text-align: center;
+    /* background-color: #EBE3D5; */
+    background-color:#363062;
+    color: white;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    height: 70vh;
+    width: 70vw;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#game{
+    height: 70vh;
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+
+}
+.box{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 10px;
+    border: none;
+    font-size: 5vw;
+    box-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: red;
+    cursor: pointer;
+    background-color: white;
+    font-family: a;
+    font-size: 7vw;
+}
+#reset{
+    margin-top: 3vw;
+    padding: 1vw 2.5vw;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+#msg{
+    font-family: b;
+    font-size: 4vw;
+    text-transform: uppercase;
+
+}
+#newBtn{
+    margin-top: 3vw;
+    padding: 1vw 2.5vw;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.msg-container{
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.hide{
+    display: none;
+}
